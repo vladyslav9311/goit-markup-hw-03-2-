@@ -1,0 +1,444 @@
+.sait {
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ====================ХЕДЕР========================== */
+.header_all {
+    box-sizing: border-box;
+    display: block;
+    color: #000;
+   border: 1px;
+   display: flex;
+   align-items: baseline;
+   text-align: center;
+   list-style: none;
+   
+    
+}
+.header_b {
+    border-bottom: 1px solid #ECECEC;
+    height: 80px;
+}
+.menu_nav {
+    color: #000;
+    border: 1px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    list-style: none;
+    
+ }
+
+
+.menu_ul {
+    box-sizing: border-box;
+    display: flex;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    align-items: baseline;
+    
+}
+a:hover {
+    color: #2196F3
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_adres {
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.link-menu {
+    color: #212121;
+}
+#stud {
+    margin-left: 93px;
+    color: #000;
+    
+
+}
+#port {
+    padding-left: 50px;
+    color: #000;
+    
+}
+#cont {
+    padding-left: 50px;
+    color: #000;
+    
+}
+#email1 {    
+    left: 1078px;
+    top: 32px;
+   
+}
+
+
+#tel {
+    width: 170px;
+    left: 1263px;
+    top: 32px;
+    color: #000;
+    padding-left: 50px;
+    
+    }
+
+/* ============ЛОГО=========== */
+.logo {
+    box-sizing: border-box;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 215px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+/* ==================БАНЕР================= */
+.banner_all {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2F303A;
+    
+    
+}
+.title1 {
+ 
+    width: 690px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#button_baner {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    
+}
+    .textbutn{
+    width: 180px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: inline;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    
+}
+
+
+/* =======================ПЕРЕВАГИ==================== */
+
+/* ЩО РОБИМО */
+
+.text_box_all {
+    margin-left: 215px;
+    margin-right: 215px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 94px;
+    justify-content: center;
+}
+.perevagy_title{
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text_box {
+    margin-left: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+.text_perevagy {
+    letter-spacing: 0.03em;
+    width: 270px;
+    height: 75px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #757575;
+    }
+/* КАРТИНКИ */
+
+
+/* ЗАГОЛОВОК */
+#wwd_h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding-top: 90px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/* КАРТИНКИ */
+.inwork_all {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    height: 294px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+}
+.inwork2 {
+    padding-left: 30px;
+}
+.inwork3 {
+    padding-left: 30px;
+}
+
+/* ========================КОМАНДА======================== */
+.section {
+    box-sizing: border-box;
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+.team-sec {
+    background-color: #F5F4FA; 
+}
+
+/* ЗАГОЛОВОК */
+.teamh2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    letter-spacing: 0.03em;
+
+}
+
+/* КАРТОЧКИ */
+
+.card_all {
+    
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.card-img {
+    width: 270px;
+    height: 270px
+}
+
+
+#card1 {
+    display: block;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+    
+}
+#card2 {
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+}
+#card3 {
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+}
+#card4 {
+    display: block;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 0px;
+    height: 368px; 
+    width: 270px;
+    background-color: #ffff;
+    text-align: center;
+}
+.card-title {
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #212121;
+   margin-bottom: 10px;
+}
+.card_text {
+   
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #757575;
+   padding-bottom: 30px;
+
+}
+
+/* ==================ТІНЬ КАРТОЧОК===================== */
+#card1, #card2, #card3, #card4 {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px
+}
+/* ====================ФУТЕР===================== */
+.footer {
+    box-sizing: border-box;
+    border: 0px;
+    height: 252px;
+    background-color: #2F303A;
+}
+.adres {
+    margin-left: 215px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+.footerbox_txt {
+    margin-left: 215px;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+}
+.footer_div {
+    padding-top: 30px;
+}
+
+
+
+/* ===============ПОРТФОЛІО=============== */
+
+/* ========================МЕНЮ===================== */
+.menu-filtr {
+    display: flex;
+    justify-content: center;
+    
+}
+
+  
+.link  {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 6px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #F5F4FA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-color: transparent;
+    
+
+}
+.menu-filtr li:nth-child(n+1) {
+    padding-left: 10px;
+    }
+.menu-filtr .link:hover {
+    background-color: #2196F3;
+    color: #F5F4FA;
+  }
+
+
+/* ======================КАРТКИ========================== */
+.cardp_all {
+    list-style: none;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+ 
+.cardp {
+    margin-left: 30px;
+}
+.img-portfolio {
+    display: block;
+}
+.card_portfolio {
+    width: 370px;
+    height: 404px;
+    list-style: none;
+    /* border: 1px solid #EEEEEE; */
+    
+    
+}
+.cardport_border {
+    /* border: 1px solid #EEEEEE; */
+    padding: 20px 24px;
+}
+.cardport-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
+    margin: 0;
+    padding: 0;
+}
+.cardport-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+}
+.ca {
+padding: 20px 20px;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+}
